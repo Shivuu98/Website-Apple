@@ -360,6 +360,7 @@ footer {
     margin-right: 20px;
     border-right: 1px solid #d2d2d7;
     padding-right: 20px;
+    text-decoration: none;
 }
 
 .legal-links li:last-child {
