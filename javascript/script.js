@@ -121,20 +121,6 @@ document.addEventListener('DOMContentLoaded', function() {
             el.style.transform = 'translateY(0)';
         }, 100 + (index * 100));
     });
-    
-    // Efek hover untuk kartu fitur
-    const featureCards = document.querySelectorAll('.feature-card');
-    featureCards.forEach(card => {
-        card.addEventListener('mouseenter', function() {
-            this.style.transform = 'translateY(-5px)';
-            this.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
-        });
-        
-        card.addEventListener('mouseleave', function() {
-            this.style.transform = 'translateY(0)';
-            this.style.boxShadow = 'none';
-        });
-    });
 });
 
 window.addEventListener('scroll', function () {
